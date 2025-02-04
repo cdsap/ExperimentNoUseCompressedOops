@@ -66,5 +66,7 @@ plugins {
 
 gcReport {
     logs = listOf("/home/runner/gc.log")
+    histogramEnabled = true
+    histogramBucket = io.github.cdsap.gcreport.plugin.model.Bucket.SquareRoot
 }
 
