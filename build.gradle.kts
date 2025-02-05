@@ -62,6 +62,7 @@ plugins {
     alias(libs.plugins.room) apply false
     alias(libs.plugins.module.graph) apply true // Plugin applied to allow module graph generation
     id("io.github.cdsap.gcreport") version "0.0.1"
+    id("io.github.cdsap.gradleprocess") version "0.1.2"
 }
 
 gcReport {
