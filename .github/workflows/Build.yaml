@@ -36,6 +36,9 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
         with:
           cache-encryption-key: ${{ secrets.GRADLE_ENCRYPTION_KEY }}
+        env:  
+          GRADLE_BUILD_ACTION_CACHE_KEY_JOB: 'testing-different-cache-key'
+                
           
 
       - name: Check build-logic
