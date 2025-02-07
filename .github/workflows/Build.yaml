@@ -39,7 +39,7 @@ jobs:
           
 
       - name: Check build-logic
-        run: ./gradlew assembleDebug
+        run: ./gradlew clean assembleDebug
         env:
           GRADLE_ENTERPRISE_ACCESS_KEY: ${{ secrets.GE_TOKEN }}
 
