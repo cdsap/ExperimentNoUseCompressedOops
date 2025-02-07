@@ -3,7 +3,7 @@ name: Build
 on:
   push:
     branches:
-      - compress
+      - test_veri
   pull_request:
 
 concurrency:
